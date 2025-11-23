@@ -36,7 +36,16 @@ pip install -r requirements.txt
 python EMIAS_version_4.20.py
 ```
 
-- Использование
+или код целиком для Linux:
+```
+git clone https://github.com/biopolly/EMIAS.git
+# Если нет необходимых модулей
+pip install matplotlib
+pip install Pillow    # для картинок
+pip install Faker
+cd EMIAS
+python EMIAS_version_4.20.py
+```
 
 - Основные функции
 
